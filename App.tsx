@@ -1,12 +1,17 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+
+import { StyleSheet, Text, SafeAreaView} from 'react-native';
+import { useState } from 'react';
+import ContactsList from './src/ContactsList';
+import contactsJson from './assets/contact'
+import Avatar from './src/Avatar';
 
 export default function App() {
+  const [contacts, setContacts] = useState(contactsJson)
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+      <SafeAreaView style={styles.container}>
+        <Avatar/>
+        { contacts.length > 0 ? <ContactsList contacts={contacts} /> : <Text>Loading</Text>}
+    </SafeAreaView>
   );
 }
 
