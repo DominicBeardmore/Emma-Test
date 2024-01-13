@@ -6,13 +6,18 @@ import contactsJson from './assets/contact'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native'
 import AvatarList from './src/AvatarList';
+import useVerticalScroll from './src/hooks/useVerticalScroll';
+import useHorizontalScroll from './src/hooks/useHorizontalScroll';
 
 const Contact = () => {
   const [contacts, setContacts] = useState(contactsJson)
+  const { y, setY } = useVerticalScroll()
+  const { x, setX } = useHorizontalScroll()
+  
   return (
     <SafeAreaView style={styles.container}>
-      <AvatarList/>
-      { contacts.length > 0 ? <ContactsList contacts={contacts} /> : <Text>Loading</Text>}
+      <AvatarList setY={setY} x={x}/>
+      { contacts.length > 0 ? <ContactsList y={y} setX={setX} data={contacts}/> : <Text>Loading</Text>}
     </SafeAreaView>
   )
 }

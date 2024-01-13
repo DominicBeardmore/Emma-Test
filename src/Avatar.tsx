@@ -14,6 +14,7 @@ export default Avatar;
 
 const styles = StyleSheet.create({
   avatarContainer: {
-    padding: 10
+    padding: 10,
+    width: 100
   }
 })
