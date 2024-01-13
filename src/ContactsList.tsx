@@ -29,6 +29,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
   },
   scrollBox: {
-    flex: 8
+    flex: 7
   }
 });

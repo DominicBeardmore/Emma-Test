@@ -3,15 +3,29 @@ import { StyleSheet, Text, SafeAreaView} from 'react-native';
 import { useState } from 'react';
 import ContactsList from './src/ContactsList';
 import contactsJson from './assets/contact'
-import Avatar from './src/Avatar';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+import { NavigationContainer } from '@react-navigation/native'
+import AvatarList from './src/AvatarList';
 
-export default function App() {
+const Contact = () => {
   const [contacts, setContacts] = useState(contactsJson)
   return (
-      <SafeAreaView style={styles.container}>
-        <Avatar/>
-        { contacts.length > 0 ? <ContactsList contacts={contacts} /> : <Text>Loading</Text>}
+    <SafeAreaView style={styles.container}>
+      <AvatarList/>
+      { contacts.length > 0 ? <ContactsList contacts={contacts} /> : <Text>Loading</Text>}
     </SafeAreaView>
+  )
+}
+
+export default function App() {
+  const Stack = createNativeStackNavigator();
+
+  return (
+    <NavigationContainer>
+      <Stack.Navigator>
+        <Stack.Screen name="Contacts" component={Contact} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
 

@@ -1,10 +1,11 @@
 import React from 'react'
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Image, StyleSheet } from 'react-native'
+import { Images } from './Images'
 
-const Avatar = () => {
+const Avatar = ({ avatar } : { avatar: string }) => {
   return (
-    <View style={styles.avatars}>
-        <Text>Caroursel</Text>
+    <View style={styles.avatarContainer}>
+      <Image source={Images[avatar]} height={100} width={100} resizeMode='contain'/>
     </View>
   )
 }
@@ -12,14 +13,7 @@ const Avatar = () => {
 export default Avatar;
 
 const styles = StyleSheet.create({
-    container: {
-      flex: 1,
-      backgroundColor: '#fff',
-      alignItems: 'center',
-      justifyContent: 'center',
-    },
-    avatars: {
-      flex: 1
-    }
-  });
-  
+  avatarContainer: {
+    padding: 10
+  }
+})
