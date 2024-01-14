@@ -1,24 +1,24 @@
 
-import { StyleSheet, Text, SafeAreaView} from 'react-native';
-import { useState } from 'react';
+import { StyleSheet, SafeAreaView} from 'react-native';
+import { useReducer, useRef, useState } from 'react';
 import ContactsList from './src/ContactsList';
 import contactsJson from './assets/contact'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native'
 import AvatarList from './src/AvatarList';
-import useVerticalScroll from './src/hooks/useVerticalScroll';
-import useHorizontalScroll from './src/hooks/useHorizontalScroll';
+import reducer from './src/store/reducer';
 
 const Contact = () => {
   const [contacts, setContacts] = useState(contactsJson)
-  const { y, setY } = useVerticalScroll()
-  const { x, setX } = useHorizontalScroll()
-  
+  const [state, dispatch] = useReducer(reducer, { x: 0, y: 0, index: 0})
+  const hRef = useRef()
+  const vRef = useRef()
+
   return (
-    <SafeAreaView style={styles.container}>
-      <AvatarList setY={setY} x={x}/>
-      { contacts.length > 0 ? <ContactsList y={y} setX={setX} data={contacts}/> : <Text>Loading</Text>}
-    </SafeAreaView>
+      <SafeAreaView style={styles.container}>
+        <AvatarList hRef={hRef} state={state} dispatch={dispatch}/>
+        <ContactsList vRef={vRef}  state={state} data={contacts} dispatch={dispatch}/>
+      </SafeAreaView>
   )
 }
 

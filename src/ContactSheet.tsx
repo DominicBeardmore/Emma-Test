@@ -21,8 +21,10 @@ export default ContactSheet
 
 const styles = StyleSheet.create({
   card: {
-    height: 300,
-    paddingHorizontal: 20
+    height: 500,
+    paddingHorizontal: 20,
+    borderColor: 'black',
+    borderBottomWidth: 1,
   },
 
   nameBox: {

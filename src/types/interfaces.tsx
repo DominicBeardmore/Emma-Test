@@ -13,3 +13,9 @@ export interface Avatar {
 export interface ImageMap {
     [key: string] : string
 }
+
+export interface State {
+    x: number,
+    y: number,
+    index: number
+}
