@@ -1,21 +1,24 @@
-import React from 'react'
+import React, { useContext } from 'react'
 import { Image, StyleSheet, TouchableOpacity } from 'react-native'
 import { Images } from './Images'
+import { SelectedContext, SelectedDispatchContext } from './contexts/SelectedContext';
 
-const Avatar = ({ avatar, dispatch, index } : {
+const Avatar = ({ avatar, index } : {
   avatar: string,
-  dispatch : Function,
-  index : number,
+  index: number
 }) => {
+  const dispatch = useContext(SelectedDispatchContext);
+  const state = useContext(SelectedContext);
 
   return (
     <TouchableOpacity style={styles.avatarContainer}
-      onPress={() =>  {
-        dispatch({
-          type: 'select-item',
-          payload: { index: Math.floor(index) }
-        })
-      }}>
+      onPress={() =>  { 
+        dispatch({ type: 'select-item', 
+          payload: { 
+            index: index, 
+            lock: "avatar" 
+          }})
+        }}>
       <Image source={Images[avatar]} height={100} width={100} resizeMode='contain'/>
     </TouchableOpacity>
   )

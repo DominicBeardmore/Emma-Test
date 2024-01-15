@@ -1,14 +1,16 @@
-import React, { Ref, useEffect} from 'react'
+import React, { Ref, useContext, useEffect, useState} from 'react'
 import { View, StyleSheet, ScrollView } from 'react-native'
 import ContactSheet from './ContactSheet'
 import { Contact, State } from './types/interfaces'
+import { SelectedContext, SelectedDispatchContext } from './contexts/SelectedContext'
 
-const ContactsList = ({ data, state, dispatch, vRef, }: {
+const ContactsList = ({ data, vRef}: {
   data: Contact[],
-  state: State,
-  dispatch : Function,
-  vRef: Ref
+  vRef: Ref,
 }) => {
+  const dispatch = useContext(SelectedDispatchContext);
+  const state = useContext(SelectedContext);
+  const [enabled, setEnabled] = useState(false);
 
   useEffect(() => {
     const scroll = () => {
@@ -17,28 +19,27 @@ const ContactsList = ({ data, state, dispatch, vRef, }: {
     scroll()
   }, [state.index])
 
-
-
   const scrollHorz = (event: { nativeEvent: { contentOffset: { y: number } } }) => {
-    // if (event.nativeEvent.contentOffset.y % 500 == 0) {
+    if (state.lock != "avatar") {
       const index = (event.nativeEvent.contentOffset.y / 500)
       dispatch({
         type: 'select-item',
-        payload: { index: Math.floor(index)  }
+        payload: { index: Math.floor(index), lock: "vertical" }
       })
-    // }
+    }
   }
 
   return (
     <View style={styles.scrollBox}>
       <ScrollView
         style={styles.scroll} 
-        ref={vRef} 
+        ref={vRef}
+        scrollEnabled={state.scrollLock != "avatar"}
         onScroll={scrollHorz}
-        decelerationRate="fast"
         snapToInterval={500}
-        scrollEventThrottle={160}
+        scrollEventThrottle={16}
         overScrollMode={'never'}
+        onScrollEndDrag={() => dispatch({type: "clear-lock"})}
       >
         { data.map(( { id, name, secondName, subtitle, bio } : Contact ) => (
           <ContactSheet

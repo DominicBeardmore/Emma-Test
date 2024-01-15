@@ -1,34 +1,26 @@
-import React, { useEffect } from 'react'
+import React, { useContext, useEffect } from 'react'
 import { ScrollView, StyleSheet } from 'react-native'
 import Avatar from './Avatar'
 import { State } from './types/interfaces'
+import { SelectedContext, SelectedDispatchContext } from './contexts/SelectedContext'
 
-const AvatarList = ({ dispatch, state, hRef } : { 
-    state: State
-    dispatch: any,
-    hRef: Ref
-  } ) => {
+const AvatarList = ({ hRef } : { hRef: Ref} ) => {
+  const dispatch = useContext(SelectedDispatchContext);
+  const state = useContext(SelectedContext);
 
     useEffect(() => {
       const scroll = () => {
         hRef?.current?.scrollTo({ x: state.x })
       }
-      scroll()  
-    }, [state.index])
+      scroll()
 
-    const scrollVert = (event: { nativeEvent: { contentOffset: { x: number } } }) => {
-        const index = (event.nativeEvent.contentOffset.x / 500)
-        dispatch({
-          type: 'select-item',
-          payload: { index: Math.floor(index)  }
-        })
-    }
+    }, [state.index])
 
   return (
     <ScrollView 
       style={styles.listBox} 
-      horizontal 
-    //  onScroll={scrollVert}
+      horizontal
+      scrollEnabled
       ref={hRef}
       snapToAlignment="center"
       decelerationRate="fast"
@@ -36,12 +28,12 @@ const AvatarList = ({ dispatch, state, hRef } : {
       scrollEventThrottle={0}
       overScrollMode="never"
     >
-        <Avatar dispatch={dispatch} index={0} avatar={"AllanMunger"}/>
-        <Avatar dispatch={dispatch} index={1} avatar={"AmandaBrady"}/>
-        <Avatar dispatch={dispatch} index={2} avatar={"AllanMunger"}/>
-        <Avatar dispatch={dispatch} index={3} avatar={"AmandaBrady"}/>
-        <Avatar dispatch={dispatch} index={4} avatar={"AllanMunger"}/>
-        <Avatar dispatch={dispatch} index={5} avatar={"AmandaBrady"}/>
+        <Avatar avatar={"AllanMunger"} index={0}/>
+        <Avatar avatar={"AmandaBrady"} index={1}/>
+        <Avatar avatar={"AllanMunger"} index={2}/>
+        <Avatar avatar={"AmandaBrady"} index={3}/>
+        <Avatar avatar={"AllanMunger"} index={4}/>
+        <Avatar avatar={"AmandaBrady"} index={5}/>
     </ScrollView>
   )
 }

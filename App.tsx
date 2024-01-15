@@ -7,18 +7,21 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native'
 import AvatarList from './src/AvatarList';
 import reducer from './src/store/reducer';
+import { SelectedContext, SelectedProvider } from './src/contexts/SelectedContext';
 
 const Contact = () => {
   const [contacts, setContacts] = useState(contactsJson)
-  const [state, dispatch] = useReducer(reducer, { x: 0, y: 0, index: 0})
+  // const [state, dispatch] = useReducer(reducer, { x: 0, y: 0, index: 0})
   const hRef = useRef()
   const vRef = useRef()
 
   return (
+    <SelectedProvider>
       <SafeAreaView style={styles.container}>
-        <AvatarList hRef={hRef} state={state} dispatch={dispatch}/>
-        <ContactsList vRef={vRef}  state={state} data={contacts} dispatch={dispatch}/>
+        <AvatarList hRef={hRef}/>
+        <ContactsList vRef={vRef} data={contacts}/>
       </SafeAreaView>
+    </SelectedProvider>
   )
 }
 
