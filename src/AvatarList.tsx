@@ -1,4 +1,4 @@
-import React, { useContext, useEffect } from 'react'
+import React, { useContext, useEffect, useState } from 'react'
 import { ScrollView, StyleSheet } from 'react-native'
 import Avatar from './Avatar'
 import { State } from './types/interfaces'
@@ -6,23 +6,14 @@ import { SelectedContext, SelectedDispatchContext } from './contexts/SelectedCon
 import { SyncedScrollView } from './components/SyncedScrollView'
 
 const AvatarList = ({ hRef } : { hRef: Ref} ) => {
-  const dispatch = useContext(SelectedDispatchContext);
-  const state = useContext(SelectedContext);
-
-    useEffect(() => {
-      const scroll = () => {
-        hRef?.current?.scrollTo({ x: state.x })
-      }
-      scroll()
-
-    }, [state.index])
+  const [avatarId, setAvaterId] = useState(0)
 
   return (
     <SyncedScrollView 
       id={1}
       style={styles.listBox} 
       horizontal
-      scrollEnabled
+      onTouchAvatar={setAvaterId}
       snapToAlignment="center"
       scrollEventThrottle={16}
     >

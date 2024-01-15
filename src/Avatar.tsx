@@ -2,23 +2,17 @@ import React, { useContext } from 'react'
 import { Image, StyleSheet, TouchableOpacity } from 'react-native'
 import { Images } from './Images'
 import { SelectedContext, SelectedDispatchContext } from './contexts/SelectedContext';
+import { useSyncScrollViewContext } from './contexts/SyncScrollViewContext'
 
 const Avatar = ({ avatar, index } : {
   avatar: string,
   index: number
 }) => {
-  const dispatch = useContext(SelectedDispatchContext);
-  const state = useContext(SelectedContext);
+  const SyncScrollViewContext = useContext(useSyncScrollViewContext());
 
   return (
     <TouchableOpacity style={styles.avatarContainer}
-      onPress={() =>  { 
-        dispatch({ type: 'select-item', 
-          payload: { 
-            index: index, 
-            lock: "avatar" 
-          }})
-        }}>
+      onPress={() => SyncScrollViewContext.avatarId.setValue(index) }>
       <Image source={Images[avatar]} height={100} width={100} resizeMode='contain'/>
     </TouchableOpacity>
   )

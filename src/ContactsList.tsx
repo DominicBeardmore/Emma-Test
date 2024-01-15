@@ -35,7 +35,6 @@ const ContactsList = ({ data, vRef}: {
       <SyncedScrollView
         id={0}
         style={styles.scroll} 
-        onScroll={scrollHorz}
         snapToInterval={500}
         scrollEventThrottle={16}
       >

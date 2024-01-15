@@ -1,12 +1,14 @@
 import { Animated, ScrollView, ScrollViewProps } from "react-native";
-import { SyncScrollViewContext } from "../contexts/SyncScrollViewContext";
+import { useSyncScrollViewContext } from "../contexts/SyncScrollViewContext";
 import { useContext, useEffect, useRef, useState } from "react";
 
-interface SyncScrollViewProps extends ScrollViewProps { id: number }
+interface SyncScrollViewProps extends ScrollViewProps { id: number, onTouchAvatar: Function }
 
 export const SyncedScrollView = (props: SyncScrollViewProps) => {
-    const { id, ...rest } = props;
-    const { activeScrollView, offsetPercentage } = useContext(SyncScrollViewContext)
+    const { id, onTouchAvatar, ...rest } = props;
+    const ScrollViewProviderContext = useContext(useSyncScrollViewContext())
+    const { activeScrollView, offsetPercentage, avatarId } = ScrollViewProviderContext
+
     const [scrollViewLength, setScrollViewLength] = useState(0)
     const [contentLength, setContentLength] = useState(0)
     const [scrollableLength, setScrollableLength] = useState(0)
@@ -23,13 +25,16 @@ export const SyncedScrollView = (props: SyncScrollViewProps) => {
       setContentLength(props.horizontal ? width : height)
     }
 
-  
     const scrollViewRef = useRef<ScrollView>(null)
   
     offsetPercentage?.addListener(({ value }) => {
       if (id !== activeScrollView._value && scrollableLength > 0) {
         scrollViewRef.current?.scrollTo({ [props.horizontal ? 'x' : 'y']: value * scrollableLength, animated: false })
       }
+    })
+
+    avatarId.addListener(( ) => {
+        scrollViewRef.current?.scrollTo({ [props.horizontal ? 'x' : 'y']: (avatarId._value / 6) * scrollableLength, animated: false })
     })
   
     const offset = new Animated.Value(0)
@@ -49,8 +54,12 @@ export const SyncedScrollView = (props: SyncScrollViewProps) => {
       activeScrollView.setValue(id)
     }
 
+    const handleAvatarTouch = () => {
+        avatarId.setValue(5)
+    }
+
     return ( 
-        <Animated.ScrollView 
+        <Animated.ScrollView
             {...rest}
             ref={scrollViewRef}
             onScroll={handleScroll}

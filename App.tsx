@@ -7,21 +7,22 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native'
 import AvatarList from './src/AvatarList';
 import { SelectedProvider } from './src/contexts/SelectedContext';
-import { SyncScrollViewContext, SyncScrollViewState } from './src/contexts/SyncScrollViewContext';
+import { useSyncScrollViewContext, SyncScrollViewState } from './src/contexts/SyncScrollViewContext';
 
 const Contact = () => {
   const [contacts, setContacts] = useState(contactsJson)
   const hRef = useRef()
   const vRef = useRef()
 
+  const ScrollViewProviderContext = useSyncScrollViewContext()
   return (
     <SelectedProvider>
-      <SyncScrollViewContext.Provider value={SyncScrollViewState}>
+      <ScrollViewProviderContext.Provider value={SyncScrollViewState}>
       <SafeAreaView style={styles.container}>
         <AvatarList hRef={hRef}/>
           <ContactsList vRef={vRef} data={contacts}/>
       </SafeAreaView>
-      </SyncScrollViewContext.Provider>
+      </ScrollViewProviderContext.Provider>
     </SelectedProvider>
   )
 }
