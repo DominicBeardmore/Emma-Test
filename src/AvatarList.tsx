@@ -3,6 +3,7 @@ import { ScrollView, StyleSheet } from 'react-native'
 import Avatar from './Avatar'
 import { State } from './types/interfaces'
 import { SelectedContext, SelectedDispatchContext } from './contexts/SelectedContext'
+import { SyncedScrollView } from './components/SyncedScrollView'
 
 const AvatarList = ({ hRef } : { hRef: Ref} ) => {
   const dispatch = useContext(SelectedDispatchContext);
@@ -17,16 +18,13 @@ const AvatarList = ({ hRef } : { hRef: Ref} ) => {
     }, [state.index])
 
   return (
-    <ScrollView 
+    <SyncedScrollView 
+      id={1}
       style={styles.listBox} 
       horizontal
       scrollEnabled
-      ref={hRef}
       snapToAlignment="center"
-      decelerationRate="fast"
-      snapToInterval={100}
-      scrollEventThrottle={0}
-      overScrollMode="never"
+      scrollEventThrottle={16}
     >
         <Avatar avatar={"AllanMunger"} index={0}/>
         <Avatar avatar={"AmandaBrady"} index={1}/>
@@ -34,7 +32,7 @@ const AvatarList = ({ hRef } : { hRef: Ref} ) => {
         <Avatar avatar={"AmandaBrady"} index={3}/>
         <Avatar avatar={"AllanMunger"} index={4}/>
         <Avatar avatar={"AmandaBrady"} index={5}/>
-    </ScrollView>
+    </SyncedScrollView>
   )
 }
 export default AvatarList

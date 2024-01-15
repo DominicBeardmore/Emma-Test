@@ -3,6 +3,7 @@ import { View, StyleSheet, ScrollView } from 'react-native'
 import ContactSheet from './ContactSheet'
 import { Contact, State } from './types/interfaces'
 import { SelectedContext, SelectedDispatchContext } from './contexts/SelectedContext'
+import { SyncedScrollView } from './components/SyncedScrollView'
 
 const ContactsList = ({ data, vRef}: {
   data: Contact[],
@@ -31,15 +32,12 @@ const ContactsList = ({ data, vRef}: {
 
   return (
     <View style={styles.scrollBox}>
-      <ScrollView
+      <SyncedScrollView
+        id={0}
         style={styles.scroll} 
-        ref={vRef}
-        scrollEnabled={state.scrollLock != "avatar"}
         onScroll={scrollHorz}
         snapToInterval={500}
         scrollEventThrottle={16}
-        overScrollMode={'never'}
-        onScrollEndDrag={() => dispatch({type: "clear-lock"})}
       >
         { data.map(( { id, name, secondName, subtitle, bio } : Contact ) => (
           <ContactSheet
@@ -50,7 +48,7 @@ const ContactsList = ({ data, vRef}: {
             bio={bio} 
             id={id}      
           />)) }
-      </ScrollView> 
+      </SyncedScrollView> 
     </View>
   )
 }
