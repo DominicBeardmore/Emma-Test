@@ -1,8 +1,13 @@
-import { Animated, ScrollView, ScrollViewProps } from "react-native";
+import { Animated, Dimensions, ScrollView, ScrollViewProps } from "react-native";
 import { useSyncScrollViewContext } from "../contexts/SyncScrollViewContext";
 import { useContext, useEffect, useRef, useState } from "react";
+const {height, width} = Dimensions.get('window')
 
-interface SyncScrollViewProps extends ScrollViewProps { id: number, onTouchAvatar?: Function }
+interface SyncScrollViewProps extends ScrollViewProps { 
+  showsVerticalScrollIndicator: boolean,
+  showsHorizontalScrollIndicator: boolean,
+  id: number, 
+  onTouchAvatar?: Function }
 
 export const SyncedScrollView = (props: SyncScrollViewProps) => {
     const { id, onTouchAvatar, ...rest } = props;
@@ -13,6 +18,11 @@ export const SyncedScrollView = (props: SyncScrollViewProps) => {
     const [contentLength, setContentLength] = useState(0)
     const [scrollableLength, setScrollableLength] = useState(0)
   
+    function roundToWidth(number: number) {
+      const rounded = Math.round(number * 4) / 4;
+      return rounded;
+    }
+
     useEffect(() => {
       setScrollableLength(contentLength - scrollViewLength)
     }, [scrollViewLength, contentLength])
@@ -34,7 +44,7 @@ export const SyncedScrollView = (props: SyncScrollViewProps) => {
     })
 
     avatarId.addListener(( ) => {
-        scrollViewRef.current?.scrollTo({ [props.horizontal ? 'x' : 'y']: (avatarId._value / 28) * scrollableLength, animated: false })
+        scrollViewRef.current?.scrollTo({ [props.horizontal ? 'x' : 'y']: avatarId._value / 28 * scrollableLength, animated: false })
     })
   
     const offset = new Animated.Value(0)
@@ -54,19 +64,17 @@ export const SyncedScrollView = (props: SyncScrollViewProps) => {
       activeScrollView.setValue(id)
     }
 
-    const handleAvatarTouch = () => {
-        avatarId.setValue(5)
-    }
-
     return ( 
         <Animated.ScrollView
-            {...rest}
-            ref={scrollViewRef}
-            onScroll={handleScroll}
-            scrollEventThrottle={16}
-            onTouchStart={handleTouchStart}
-            onLayout={handleLayout}
-            onContentSizeChange={handleContentSizeChange}
+          {...rest}
+          showsHorizontalScrollIndicator={false}
+          showsVerticalScrollIndicator={false}
+          ref={scrollViewRef}
+          onScroll={handleScroll}
+          scrollEventThrottle={16}
+          onTouchStart={handleTouchStart}
+          onLayout={handleLayout}
+          onContentSizeChange={handleContentSizeChange}
         />
     )
 }

@@ -10,7 +10,7 @@ import { SelectedProvider } from './src/contexts/SelectedContext';
 import { useSyncScrollViewContext, SyncScrollViewState } from './src/contexts/SyncScrollViewContext';
 
 const Contact = () => {
-  const [contacts, setContacts] = useState(contactsJson)
+  const [contacts, _] = useState(contactsJson)
   const hRef = useRef()
   const vRef = useRef()
 
@@ -20,7 +20,7 @@ const Contact = () => {
       <ScrollViewProviderContext.Provider value={SyncScrollViewState}>
       <SafeAreaView style={styles.container}>
         <AvatarList contacts={contacts} hRef={hRef}/>
-          <ContactsList vRef={vRef} data={contacts}/>
+        <ContactsList vRef={vRef} data={contacts}/>
       </SafeAreaView>
       </ScrollViewProviderContext.Provider>
     </SelectedProvider>

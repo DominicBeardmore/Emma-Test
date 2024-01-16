@@ -1,23 +1,24 @@
-import React, { Ref, useContext, useEffect, useState} from 'react'
-import { View, StyleSheet, ScrollView } from 'react-native'
+import React, { Ref} from 'react'
+import { View, StyleSheet, Dimensions } from 'react-native'
 import ContactSheet from './ContactSheet'
-import { Contact, State } from './types/interfaces'
-import { SelectedContext, SelectedDispatchContext } from './contexts/SelectedContext'
+import { Contact } from './types/interfaces'
 import { SyncedScrollView } from './components/SyncedScrollView'
+const { height } = Dimensions.get('window')
 
 const ContactsList = ({ data, vRef}: {
   data: Contact[],
   vRef: Ref,
 }) => {
 
-  return (
+  return (   
     <View style={styles.scrollBox}>
       <SyncedScrollView
         id={0}
         style={styles.scroll}
-        snapToInterval={500}
-        scrollEventThrottle={16}      
-        >
+        scrollEventThrottle={16}  
+        snapToInterval={height * 0.8}    
+        overScrollMode="never"
+      >
         { data.map(( { id, name, secondName, subtitle, bio } : Contact ) => (
           <ContactSheet
             key={id}
