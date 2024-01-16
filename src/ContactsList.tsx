@@ -9,43 +9,24 @@ const ContactsList = ({ data, vRef}: {
   data: Contact[],
   vRef: Ref,
 }) => {
-  const dispatch = useContext(SelectedDispatchContext);
-  const state = useContext(SelectedContext);
-  const [enabled, setEnabled] = useState(false);
-
-  useEffect(() => {
-    const scroll = () => {
-      vRef?.current?.scrollTo({ y: state.y})
-    }
-    scroll()
-  }, [state.index])
-
-  const scrollHorz = (event: { nativeEvent: { contentOffset: { y: number } } }) => {
-    if (state.lock != "avatar") {
-      const index = (event.nativeEvent.contentOffset.y / 500)
-      dispatch({
-        type: 'select-item',
-        payload: { index: Math.floor(index), lock: "vertical" }
-      })
-    }
-  }
 
   return (
     <View style={styles.scrollBox}>
       <SyncedScrollView
         id={0}
-        style={styles.scroll} 
+        style={styles.scroll}
         snapToInterval={500}
-        scrollEventThrottle={16}
-      >
+        scrollEventThrottle={16}      
+        >
         { data.map(( { id, name, secondName, subtitle, bio } : Contact ) => (
           <ContactSheet
             key={id}
             name={name}
             secondName={secondName}
             subtitle={subtitle}
-            bio={bio} 
-            id={id}      
+            bio={bio}
+            id={id} 
+            image={''}          
           />)) }
       </SyncedScrollView> 
     </View>

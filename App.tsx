@@ -19,7 +19,7 @@ const Contact = () => {
     <SelectedProvider>
       <ScrollViewProviderContext.Provider value={SyncScrollViewState}>
       <SafeAreaView style={styles.container}>
-        <AvatarList hRef={hRef}/>
+        <AvatarList contacts={contacts} hRef={hRef}/>
           <ContactsList vRef={vRef} data={contacts}/>
       </SafeAreaView>
       </ScrollViewProviderContext.Provider>

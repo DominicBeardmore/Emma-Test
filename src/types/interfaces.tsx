@@ -1,6 +1,7 @@
 export interface Contact {
     name: string
-    id: string
+    id: number,
+    image: string,
     secondName: string,
     subtitle: string
     bio: string

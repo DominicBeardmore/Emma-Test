@@ -1,11 +1,11 @@
 import React, { useContext, useEffect, useState } from 'react'
 import { ScrollView, StyleSheet } from 'react-native'
 import Avatar from './Avatar'
-import { State } from './types/interfaces'
+import { Contact, State } from './types/interfaces'
 import { SelectedContext, SelectedDispatchContext } from './contexts/SelectedContext'
 import { SyncedScrollView } from './components/SyncedScrollView'
 
-const AvatarList = ({ hRef } : { hRef: Ref} ) => {
+const AvatarList = ({ hRef, contacts } : { hRef: Ref, contacts: Contact[]} ) => {
   const [avatarId, setAvaterId] = useState(0)
 
   return (
@@ -17,12 +17,10 @@ const AvatarList = ({ hRef } : { hRef: Ref} ) => {
       snapToAlignment="center"
       scrollEventThrottle={16}
     >
-        <Avatar avatar={"AllanMunger"} index={0}/>
-        <Avatar avatar={"AmandaBrady"} index={1}/>
-        <Avatar avatar={"AllanMunger"} index={2}/>
-        <Avatar avatar={"AmandaBrady"} index={3}/>
-        <Avatar avatar={"AllanMunger"} index={4}/>
-        <Avatar avatar={"AmandaBrady"} index={5}/>
+        { contacts.map(( { image, id } : Contact ) => (
+          <Avatar avatar={image} key={id} index={id}/>
+        )) }
+
     </SyncedScrollView>
   )
 }

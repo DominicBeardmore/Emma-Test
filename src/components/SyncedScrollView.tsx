@@ -2,7 +2,7 @@ import { Animated, ScrollView, ScrollViewProps } from "react-native";
 import { useSyncScrollViewContext } from "../contexts/SyncScrollViewContext";
 import { useContext, useEffect, useRef, useState } from "react";
 
-interface SyncScrollViewProps extends ScrollViewProps { id: number, onTouchAvatar: Function }
+interface SyncScrollViewProps extends ScrollViewProps { id: number, onTouchAvatar?: Function }
 
 export const SyncedScrollView = (props: SyncScrollViewProps) => {
     const { id, onTouchAvatar, ...rest } = props;
@@ -34,7 +34,7 @@ export const SyncedScrollView = (props: SyncScrollViewProps) => {
     })
 
     avatarId.addListener(( ) => {
-        scrollViewRef.current?.scrollTo({ [props.horizontal ? 'x' : 'y']: (avatarId._value / 6) * scrollableLength, animated: false })
+        scrollViewRef.current?.scrollTo({ [props.horizontal ? 'x' : 'y']: (avatarId._value / 28) * scrollableLength, animated: false })
     })
   
     const offset = new Animated.Value(0)
