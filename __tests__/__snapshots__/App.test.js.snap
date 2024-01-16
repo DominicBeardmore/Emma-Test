@@ -1,0 +1,3555 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    [
+      {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <RNSScreenStack
+    style={
+      {
+        "flex": 1,
+      }
+    }
+  >
+    <RNSScreen
+      collapsable={false}
+      gestureResponseDistance={
+        {
+          "bottom": -1,
+          "end": -1,
+          "start": -1,
+          "top": -1,
+        }
+      }
+      nativeBackButtonDismissalEnabled={false}
+      onAppear={[Function]}
+      onDisappear={[Function]}
+      onDismissed={[Function]}
+      onGestureCancel={[Function]}
+      onHeaderBackButtonClicked={[Function]}
+      onNativeDismissCancelled={[Function]}
+      onTransitionProgress={[Function]}
+      onWillDisappear={[Function]}
+      replaceAnimation="push"
+      sheetAllowedDetents="large"
+      sheetCornerRadius={-1}
+      sheetExpandsWhenScrolledToEdge={true}
+      sheetGrabberVisible={false}
+      sheetLargestUndimmedDetent="all"
+      stackPresentation="push"
+      style={
+        {
+          "bottom": 0,
+          "left": 0,
+          "position": "absolute",
+          "right": 0,
+          "top": 0,
+        }
+      }
+      swipeDirection="horizontal"
+    >
+      <View
+        accessibilityElementsHidden={false}
+        importantForAccessibility="auto"
+        style={
+          {
+            "flex": 1,
+            "flexDirection": "column-reverse",
+          }
+        }
+      >
+        <View
+          collapsable={false}
+          style={
+            [
+              {
+                "flex": 1,
+              },
+              {
+                "backgroundColor": "rgb(242, 242, 242)",
+              },
+              undefined,
+            ]
+          }
+        >
+          <RCTSafeAreaView
+            style={
+              {
+                "alignItems": "center",
+                "backgroundColor": "#fff",
+                "flex": 1,
+                "justifyContent": "center",
+              }
+            }
+          >
+            <RCTScrollView
+              collapsable={false}
+              decelerationRate="fast"
+              horizontal={true}
+              onContentSizeChange={[Function]}
+              onLayout={[Function]}
+              onScroll={[Function]}
+              onTouchStart={[Function]}
+              scrollEventThrottle={16}
+              showsHorizontalScrollIndicator={false}
+              showsVerticalScrollIndicator={false}
+              snapToAlignment="center"
+              snapToInterval={187.5}
+              style={
+                {
+                  "flex": 5,
+                  "flexDirection": "row",
+                  "paddingHorizontal": 325,
+                }
+              }
+            >
+              <View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+                <View
+                  accessibilityState={
+                    {
+                      "busy": undefined,
+                      "checked": undefined,
+                      "disabled": undefined,
+                      "expanded": undefined,
+                      "selected": undefined,
+                    }
+                  }
+                  accessibilityValue={
+                    {
+                      "max": undefined,
+                      "min": undefined,
+                      "now": undefined,
+                      "text": undefined,
+                    }
+                  }
+                  accessible={true}
+                  collapsable={false}
+                  focusable={true}
+                  onClick={[Function]}
+                  onResponderGrant={[Function]}
+                  onResponderMove={[Function]}
+                  onResponderRelease={[Function]}
+                  onResponderTerminate={[Function]}
+                  onResponderTerminationRequest={[Function]}
+                  onStartShouldSetResponder={[Function]}
+                  style={
+                    {
+                      "alignItems": "center",
+                      "opacity": 1,
+                      "padding": 10,
+                      "width": 187.5,
+                    }
+                  }
+                >
+                  <Image
+                    height={100}
+                    resizeMode="contain"
+                    source={1}
+                    width={100}
+                  />
+                </View>
+              </View>
+            </RCTScrollView>
+            <View
+              style={
+                {
+                  "flex": 7,
+                  "justifyContent": "flex-start",
+                }
+              }
+            >
+              <RCTScrollView
+                collapsable={false}
+                onContentSizeChange={[Function]}
+                onLayout={[Function]}
+                onScroll={[Function]}
+                onTouchStart={[Function]}
+                overScrollMode="never"
+                scrollEventThrottle={16}
+                showsHorizontalScrollIndicator={false}
+                showsVerticalScrollIndicator={false}
+                snapToInterval={1067.2}
+                style={
+                  {
+                    "backgroundColor": "#fff",
+                  }
+                }
+              >
+                <View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Allan
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Munger
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Amanda
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Brady
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Ashley
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        McCarthy
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Carlos
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Slattery
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Carole
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Poland
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Cecil
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Folk
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Celeste
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Burton
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Charlotte
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Waltson
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Colin
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Ballinger
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Daisy
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Phillips
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Elliot
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Woodward
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Elvia
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Atkins
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Erik
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Nason
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Henry
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Brill
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Isaac
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Fielder
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Johnie
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        McConnell
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Kat
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Larsson
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Katri
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Ahokas
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Kevin
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Sturgis
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Kristin
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Patterson
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Lydia
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Bauer
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Mauricio
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        August
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Miguel
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Garcia
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Mona
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Kane
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Robert
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Tolbert
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Robin
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Counts
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Tim
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Deboer
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                  <View
+                    style={
+                      [
+                        {
+                          "paddingHorizontal": 20,
+                        },
+                        {
+                          "height": 1067.2,
+                        },
+                      ]
+                    }
+                  >
+                    <View
+                      style={
+                        {
+                          "flexDirection": "row",
+                        }
+                      }
+                    >
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "fontWeight": "bold",
+                            "paddingRight": 1,
+                            "textAlign": "right",
+                          }
+                        }
+                      >
+                        Wanda
+                      </Text>
+                      <Text
+                        style={
+                          {
+                            "flex": 1,
+                            "fontSize": 20,
+                            "paddingLeft": 5,
+                          }
+                        }
+                      >
+                        Howard
+                      </Text>
+                    </View>
+                    <Text
+                      style={
+                        {
+                          "alignSelf": "center",
+                          "color": "grey",
+                          "fontSize": 15,
+                          "paddingBottom": 20,
+                        }
+                      }
+                    >
+                      Writer
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "fontSize": 15,
+                          "fontWeight": "bold",
+                          "paddingBottom": 5,
+                        }
+                      }
+                    >
+                      About Me
+                    </Text>
+                    <Text
+                      style={
+                        {
+                          "color": "grey",
+                        }
+                      }
+                    >
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut ullamcorper leo quis pretium vehicula. In aliquam sagittis sapien id varius. In pharetra nisi orci, non venenatis mi faucibus ac. Nullam a mollis urna. Fusce euismod in enim sit amet sagittis. Suspendisse vel nunc sed nibh convallis blandit ut at ipsum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed sit amet mauris venenatis, tincidunt tellus vel, porta mauris.
+                    </Text>
+                  </View>
+                </View>
+              </RCTScrollView>
+            </View>
+          </RCTSafeAreaView>
+        </View>
+      </View>
+      <RNSScreenStackHeaderConfig
+        backButtonInCustomView={false}
+        backTitleVisible={true}
+        backgroundColor="rgb(255, 255, 255)"
+        color="rgb(0, 122, 255)"
+        direction="ltr"
+        disableBackButtonMenu={false}
+        hidden={false}
+        hideBackButton={false}
+        largeTitleHideShadow={false}
+        title="Contacts"
+        titleColor="rgb(28, 28, 30)"
+        topInsetEnabled={false}
+        translucent={false}
+      />
+    </RNSScreen>
+  </RNSScreenStack>
+</RNCSafeAreaProvider>
+`;

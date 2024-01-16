@@ -1,29 +1,24 @@
 
 import { StyleSheet, SafeAreaView} from 'react-native';
-import React, { useRef, useState } from 'react';
+import React, { useState } from 'react';
 import ContactsList from './src/ContactsList';
 import contactsJson from './assets/contact'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native'
 import AvatarList from './src/AvatarList';
-import { SelectedProvider } from './src/contexts/SelectedContext';
 import { useSyncScrollViewContext, SyncScrollViewState } from './src/contexts/SyncScrollViewContext';
 
 const Contact = () => {
   const [contacts, _] = useState(contactsJson)
-  const hRef = useRef()
-  const vRef = useRef()
 
   const ScrollViewProviderContext = useSyncScrollViewContext()
   return (
-    <SelectedProvider>
-      <ScrollViewProviderContext.Provider value={SyncScrollViewState}>
+    <ScrollViewProviderContext.Provider value={SyncScrollViewState}>
       <SafeAreaView style={styles.container}>
-        <AvatarList contacts={contacts} hRef={hRef}/>
-        <ContactsList vRef={vRef} data={contacts}/>
+        <AvatarList contacts={contacts}/>
+        <ContactsList contacts={contacts}/>
       </SafeAreaView>
-      </ScrollViewProviderContext.Provider>
-    </SelectedProvider>
+    </ScrollViewProviderContext.Provider>
   )
 }
 

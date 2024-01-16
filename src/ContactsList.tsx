@@ -1,13 +1,12 @@
-import React, { Ref} from 'react'
+import React from 'react'
 import { View, StyleSheet, Dimensions } from 'react-native'
 import ContactSheet from './ContactSheet'
 import { Contact } from './types/interfaces'
 import { SyncedScrollView } from './components/SyncedScrollView'
 const { height } = Dimensions.get('window')
 
-const ContactsList = ({ data, vRef}: {
-  data: Contact[],
-  vRef: Ref,
+const ContactsList = ({ contacts }: {
+  contacts: Contact[]
 }) => {
 
   return (   
@@ -15,11 +14,12 @@ const ContactsList = ({ data, vRef}: {
       <SyncedScrollView
         id={0}
         style={styles.scroll}
-        scrollEventThrottle={16}  
-        snapToInterval={height * 0.8}    
-        overScrollMode="never"
+        scrollEventThrottle={16}
+        snapToInterval={height * 0.8}
+        overScrollMode="never" 
+        showsVerticalScrollIndicator={false}
       >
-        { data.map(( { id, name, secondName, subtitle, bio } : Contact ) => (
+        { contacts.map(( { id, name, secondName, subtitle, bio } : Contact ) => (
           <ContactSheet
             key={id}
             name={name}

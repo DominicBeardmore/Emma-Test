@@ -4,8 +4,8 @@ import { useContext, useEffect, useRef, useState } from "react";
 const {height, width} = Dimensions.get('window')
 
 interface SyncScrollViewProps extends ScrollViewProps { 
-  showsVerticalScrollIndicator: boolean,
-  showsHorizontalScrollIndicator: boolean,
+  showsVerticalScrollIndicator?: boolean,
+  showsHorizontalScrollIndicator?: boolean,
   id: number, 
   onTouchAvatar?: Function }
 
@@ -65,16 +65,16 @@ export const SyncedScrollView = (props: SyncScrollViewProps) => {
     }
 
     return ( 
-        <Animated.ScrollView
-          {...rest}
-          showsHorizontalScrollIndicator={false}
-          showsVerticalScrollIndicator={false}
-          ref={scrollViewRef}
-          onScroll={handleScroll}
-          scrollEventThrottle={16}
-          onTouchStart={handleTouchStart}
-          onLayout={handleLayout}
-          onContentSizeChange={handleContentSizeChange}
-        />
+      <Animated.ScrollView
+        {...rest}
+        showsHorizontalScrollIndicator={false}
+        showsVerticalScrollIndicator={false}
+        ref={scrollViewRef}
+        onScroll={handleScroll}
+        scrollEventThrottle={16}
+        onTouchStart={handleTouchStart}
+        onLayout={handleLayout}
+        onContentSizeChange={handleContentSizeChange}
+      />
     )
 }

@@ -1,7 +1,7 @@
 import { Dimensions, StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { Contact } from './types/interfaces'
-const {height, width} = Dimensions.get('window')
+const { height } = Dimensions.get('window')
 
 const ContactSheet : React.FC<Contact> = ({ name, secondName, subtitle, bio }) => {
   return (
