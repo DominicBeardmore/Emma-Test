@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import ContactsList from './../src/ContactsList';
+import ContactsList from '../src/components/ContactsList';
 
 describe('<ContactsList />', () => {
   it('has 4 child', () => {

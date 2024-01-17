@@ -1,7 +1,7 @@
 import React from 'react'
 import { View, StyleSheet, Dimensions } from 'react-native'
 import ContactSheet from './ContactSheet'
-import { Contact } from './types/interfaces'
+import { Contact } from '../types/interfaces'
 import { SyncedScrollView } from './SyncedScrollView'
 const { height } = Dimensions.get('window')
 

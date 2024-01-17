@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import ContactSheet from './../src/ContactSheet';
+import ContactSheet from '../src/components/ContactSheet';
 
 describe('<ContactSheet />', () => {
   it('has 4 child', () => {

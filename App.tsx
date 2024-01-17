@@ -1,11 +1,11 @@
 
 import { StyleSheet, SafeAreaView} from 'react-native';
 import React, { useState } from 'react';
-import ContactsList from './src/ContactsList';
+import ContactsList from './src/components/ContactsList';
 import contactsJson from './assets/contact'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { NavigationContainer } from '@react-navigation/native'
-import AvatarList from './src/AvatarList';
+import AvatarList from './src/components/AvatarList';
 import { useSyncScrollViewContext, SyncScrollViewState } from './src/contexts/SyncScrollViewContext';
 
 const Contact = () => {

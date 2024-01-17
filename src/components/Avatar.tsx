@@ -1,7 +1,7 @@
 import React, { useContext } from 'react'
 import { Dimensions, Image, StyleSheet, TouchableOpacity } from 'react-native'
-import { Images } from './Images'
-import { useSyncScrollViewContext } from './contexts/SyncScrollViewContext'
+import { Images } from '../Images'
+import { useSyncScrollViewContext } from '../contexts/SyncScrollViewContext'
 const {width} = Dimensions.get('window')
 
 const Avatar : React.FC<any> = ({ avatar, index } : {

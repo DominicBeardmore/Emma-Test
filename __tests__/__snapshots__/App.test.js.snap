@@ -92,22 +92,18 @@ exports[`renders correctly 1`] = `
           >
             <RCTScrollView
               collapsable={false}
-              decelerationRate="fast"
               horizontal={true}
               onContentSizeChange={[Function]}
-              onLayout={[Function]}
               onScroll={[Function]}
               onTouchStart={[Function]}
               scrollEventThrottle={16}
               showsHorizontalScrollIndicator={false}
               showsVerticalScrollIndicator={false}
-              snapToAlignment="center"
-              snapToInterval={187.5}
               style={
                 {
-                  "flex": 5,
+                  "flex": 1,
                   "flexDirection": "row",
-                  "paddingHorizontal": 325,
+                  "paddingStart": 281.25,
                 }
               }
             >
@@ -143,8 +139,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -153,6 +149,13 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={
+                      {
+                        "borderColor": "lightblue",
+                        "borderRadius": 100,
+                        "borderWidth": 5,
+                      }
+                    }
                     width={100}
                   />
                 </View>
@@ -187,8 +190,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -197,6 +200,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -231,8 +235,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -241,6 +245,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -275,8 +280,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -285,6 +290,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -319,8 +325,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -329,6 +335,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -363,8 +370,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -373,6 +380,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -407,8 +415,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -417,6 +425,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -451,8 +460,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -461,6 +470,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -495,8 +505,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -505,6 +515,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -539,8 +550,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -549,6 +560,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -583,8 +595,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -593,6 +605,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -627,8 +640,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -637,6 +650,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -671,8 +685,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -681,6 +695,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -715,8 +730,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -725,6 +740,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -759,8 +775,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -769,6 +785,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -803,8 +820,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -813,6 +830,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -847,8 +865,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -857,6 +875,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -891,8 +910,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -901,6 +920,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -935,8 +955,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -945,6 +965,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -979,8 +1000,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -989,6 +1010,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -1023,8 +1045,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -1033,6 +1055,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -1067,8 +1090,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -1077,6 +1100,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -1111,8 +1135,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -1121,6 +1145,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -1155,8 +1180,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -1165,6 +1190,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -1199,8 +1225,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -1209,6 +1235,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -1243,8 +1270,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -1253,6 +1280,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -1287,8 +1315,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -1297,6 +1325,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -1331,8 +1360,8 @@ exports[`renders correctly 1`] = `
                   style={
                     {
                       "alignItems": "center",
+                      "justifyContent": "center",
                       "opacity": 1,
-                      "padding": 10,
                       "width": 187.5,
                     }
                   }
@@ -1341,6 +1370,7 @@ exports[`renders correctly 1`] = `
                     height={100}
                     resizeMode="contain"
                     source={1}
+                    style={null}
                     width={100}
                   />
                 </View>
@@ -1357,10 +1387,8 @@ exports[`renders correctly 1`] = `
               <RCTScrollView
                 collapsable={false}
                 onContentSizeChange={[Function]}
-                onLayout={[Function]}
                 onScroll={[Function]}
                 onTouchStart={[Function]}
-                overScrollMode="never"
                 scrollEventThrottle={16}
                 showsHorizontalScrollIndicator={false}
                 showsVerticalScrollIndicator={false}

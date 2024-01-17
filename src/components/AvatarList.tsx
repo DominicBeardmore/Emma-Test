@@ -1,7 +1,7 @@
 import React from 'react'
 import { Dimensions, StyleSheet } from 'react-native'
 import Avatar from './Avatar'
-import { Contact } from './types/interfaces'
+import { Contact } from '../types/interfaces'
 import { SyncedScrollView } from './SyncedScrollView'
 const { width } = Dimensions.get('window')
 
