@@ -2,7 +2,7 @@ import React from 'react'
 import { View, StyleSheet, Dimensions } from 'react-native'
 import ContactSheet from './ContactSheet'
 import { Contact } from './types/interfaces'
-import { SyncedScrollView } from './components/SyncedScrollView'
+import { SyncedScrollView } from './SyncedScrollView'
 const { height } = Dimensions.get('window')
 
 const ContactsList = ({ contacts }: {
@@ -16,7 +16,6 @@ const ContactsList = ({ contacts }: {
         style={styles.scroll}
         scrollEventThrottle={16}
         snapToInterval={height * 0.8}
-        overScrollMode="never" 
         showsVerticalScrollIndicator={false}
       >
         { contacts.map(( { id, name, secondName, subtitle, bio } : Contact ) => (

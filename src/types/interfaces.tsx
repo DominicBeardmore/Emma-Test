@@ -1,14 +1,15 @@
 export interface Contact {
     name: string
-    id: number,
-    image: string,
-    secondName: string,
+    id: number
+    image: string
+    secondName: string
     subtitle: string
     bio: string
 }
 
 export interface Avatar { 
-    path: string
+    avatar: string
+    index: number
 }
 
 export interface ImageMap {
@@ -16,7 +17,7 @@ export interface ImageMap {
 }
 
 export interface State {
-    x: number,
-    y: number,
+    x: number
+    y: number
     index: number
 }
