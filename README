@@ -1,0 +1,46 @@
+# Contacts Application
+
+Contacts application with syncronised scroll views.
+
+## Table of Contents
+
+- [Overview](#overview)
+- [Features](#features)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Acknowledgements](#acknowledgements)
+
+## Overview
+
+This project is a demonstration of my React Native animation skills.
+
+Through the commit history, you would be able to follow my first attempt using a purley state method before caving in and Googling for an example of synchronising two scroll views.
+
+I am aware that I did not quite complete all of the features set out in the video but I feel like I have demonstrated my React Native level and my determination to complete this task.
+
+I will continue to develop my skills and enjoyed learning new aspects of the React Native framework having never previously had to animated something using the Animation API.
+
+## Features
+
+- Scrolling the vertical list will make the top horizontal list scroll
+- Clicking on an Avatar jumps the vertical list to the relevant biography card.
+
+
+## Getting Started
+
+This project was created using the Expo library. To get this going, clone the repo and intall the Expo application from the app store: https://apps.apple.com/us/app/expo-go/id982107779 
+
+From the terminal, navigate to where you have saved the project and run these commands.
+
+> npm i
+
+Then to run the Application
+
+> npx expo start
+
+This will start a expo application on your local network. Through the Expo app, scan the QR code that appears in the terminal window.
+
+## Acknowledgements
+
+This video was helpful, only wish I went looking for it from the beginning : https://www.youtube.com/watch?v=9tE32G7WGj4
